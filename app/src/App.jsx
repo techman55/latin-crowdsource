@@ -62,7 +62,7 @@ function App() {
     <div className={"flex h-[100dvh] w-[100vw] overflow-hidden"} onKeyPress={(e) => { if (e.key === "Enter") { submit() } }} >
       <div className={"flex-1  "}>
         <div className={"p-10 pb-20 overflow-y-scroll h-full"}>
-          <h1>Credo Calculator Crowdsource</h1>
+          <h1>Latin Practice Crowdsource</h1>
 
           {alert && <p className={"text-green-500 font-bold"}>{alert}</p>}
 
