@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>Crowdsource Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="pico.min.css">
+
+  <link rel="stylesheet" href="login.css">
+
+  <script>
+    // define globals
+    const URLOBJ = new URL(window.location.href)
+    const PARAMS = Object.fromEntries(URLOBJ.searchParams)
+
+    async function submitPassword() {
+      const password = document.getElementById("password").value
+      if (!password) {
+        document.getElementById("alert-container").innerHTML = `
+          <small>Please enter a password</small>
+        `
+        return;
+      }
+
+      try {
+
+        window.location.replace(`https://api.techman.dev/credofile/token?password=${password}`)
+
+      } catch (err) {
+
+        console.log(err)
+        document.getElementById("alert-container").innerHTML = `
+          <small>An unexpected error occurred. Please try again later.</small>
+        `
+
+      }
+    }
+  </script>
+</head>
+<body>
+
+  <head>
+
+    <h2>CredoCalculator</h2>
+  </head>
+
+
+
+  <small>Enter your pin below</small>
+
+
+  <input placeholder="password" type="password" id="password">
+  <div id="alert-container"></div>
+  <br/>
+  <button class="contrast outline" id="submit" onclick="submitPassword()">Submit</button>
+
+  <script>
+    if (PARAMS.alert) {
+      document.getElementById("alert-container").innerHTML = `
+            <small>${decodeURIComponent(PARAMS.alert)}</small>
+          `
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+name = "credo-crowdsource"
+main = "src/index.js"
+compatibility_date = "2023-04-17"
+
+
+kv_namespaces = [
+    { binding = "TOKENS", id = "212af704e5db41f39cf6c055a73297f0", preview_id = "212af704e5db41f39cf6c055a73297f0" }
+]
+
+
+[[r2_buckets]]
+binding = 'DATA' # <~ valid JavaScript variable name
+bucket_name = 'credo'
+preview_bucket_name = 'credo'

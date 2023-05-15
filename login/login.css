@@ -1,0 +1,22 @@
+:root {
+
+
+}
+
+body {
+    padding: 20px;
+}
+
+* {
+
+}
+
+#submit:hover {
+    background: black;
+    color: white;
+    transition: all 0.3s;
+}
+
+#alert-container * {
+    color: #7F1D1D
+}
