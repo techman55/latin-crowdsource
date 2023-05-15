@@ -1,6 +1,10 @@
 # latin-crowdsource
 Crowdsourcing program for latin sentence translating practice
 
+This project has two parts:
+- the practice app, the front end for the data set collected (not currently open source)
+- the data entry app, this repo
+
 ## Data Sources
 Currently, the practice app contains latin text from...
 - The Gallic Wars, By Julius Caesar
