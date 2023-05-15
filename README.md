@@ -13,7 +13,7 @@ Currently, the practice app contains latin text from...
 ### [tcmn.cc/crowd](https://tcmn.cc/crowd)
 
 ## Practice app hosted at...
-- certified dataset: [latin.jesuitnotes.com](https://latin.jesuitnotes.com)
+- certified dataset: [latin.jesuitnotes.com](https://latin.jesuitnotes.com) (*hosted by [@darrinhaase](https://github.com/darrinhaase)*)
 - live, uncertified dataset, directly connected to crowdsource, with beta features: [tcmn.cc/latin](https://tcmn.cc/latin)
 
 ## Extra Tools
