@@ -9,13 +9,13 @@ Crowdsourcing program for latin sentence translating practice
 ## How to view data...
 
 #### Using one of the practice apps
-- certified dataset: [latin.jesuitnotes.com](https://latin.jesuitnotes.com) (*hosted by [@darrinhaase](https://github.com/darrinhaase)*)
+- with certified dataset: [latin.jesuitnotes.com](https://latin.jesuitnotes.com) (*hosted by [@darrinhaase](https://github.com/darrinhaase)*)
 - live, uncertified dataset, directly connected to crowdsource, with beta features: [tcmn.cc/latin](https://tcmn.cc/latin)
 
 > Note: Practice apps aren't currently open-source, but coming soon
 
 #### Using the api (raw JSON-formatted)
-- our dataset: `https://api.techman.dev/credofile/get`
+- shared dataset: `https://api.techman.dev/credofile/get`
 - self-hosted: `https://<YOUR_DOMAIN>/get`
 
 
@@ -25,7 +25,7 @@ Crowdsourcing program for latin sentence translating practice
 [tcmn.cc/crowd](https://tcmn.cc/crowd)
 
 #### Using the api
-- our dataset: `https://api.techman.dev/credofile/set?latin=<YOUR_LATIN>&english=<YOUR_ENGLISH>&notes=<YOUR_NOTES>&chapterId=<YOUR_CHAPTERID>`
+- shared dataset: `https://api.techman.dev/credofile/set?latin=<YOUR_LATIN>&english=<YOUR_ENGLISH>&notes=<YOUR_NOTES>&chapterId=<YOUR_CHAPTERID>`
 - self-hosted: `https://<YOUR_DOMAIN>/set?latin=<YOUR_LATIN>&english=<YOUR_ENGLISH>&notes=<YOUR_NOTES>&chapterId=<YOUR_CHAPTERID>`
 
 
