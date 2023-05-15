@@ -20,3 +20,12 @@ Currently, the practice app contains latin text from...
 ## Roadmap
 - [ ] Add more latin texts
 - [ ] Add an unverified section on site for data that hasn't been reviewed
+
+## Tech-stack
+
+#### Frontend
+vite + react + pico.css + tailwind
+
+#### Backend
+js + cloudflare workers + cloudflare r2 <br/>
+**Note**: Requires cloudflare r2 to be enabled, which requires a credit card.
